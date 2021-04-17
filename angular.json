@@ -51,10 +51,9 @@
               "buildOptimizer": true,
               "budgets": [
                 {
-                       "type": "initial",
-                       "maximumWarning": "4mb", 
-                       "maximumError": "5mb"
-                  
+                  "type": "initial",
+                  "maximumWarning": "4mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -127,6 +126,10 @@
               "devServerTarget": "ecommerce:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }

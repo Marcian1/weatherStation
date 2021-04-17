@@ -1,6 +1,6 @@
 {
-  "name": "ecommerce",
-  "short_name": "ecommerce",
+  "name": "WeatherStation",
+  "short_name": "WeatherStation",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
