@@ -35,7 +35,7 @@ export class PwaService {​​
 
 
   public initPwaPrompt(): void {​​
-    console.log('init');
+    console.log('initt');
     if (this.platform.ANDROID) {​​
 
       window.addEventListener('beforeinstallprompt', (event: any) => {​​
