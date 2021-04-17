@@ -12,11 +12,11 @@ export class WeatherWidgetMainComponent implements OnInit {
   constructor(private weatherService : WeatherService) { }
 
   ngOnInit() {
-    // this.WeatherData = {
-    //   main : {},
-    //   isDay: true
-    // };
-    // setInterval( ()=>{this.getWeatherData()},1000);
+    this.WeatherData = {
+      main : {},
+      isDay: true
+     };
+    setInterval( ()=>{this.getWeatherData()},1000);
   }
 
   getWeatherData(){
