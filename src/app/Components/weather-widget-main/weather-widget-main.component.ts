@@ -12,11 +12,11 @@ export class WeatherWidgetMainComponent implements OnInit {
   constructor(private weatherService : WeatherService) { }
 
   ngOnInit() {
-    this.WeatherData = {
-      main : {},
-      isDay: true
-    };
-    setInterval( ()=>{this.getWeatherData()},1000);
+    // this.WeatherData = {
+    //   main : {},
+    //   isDay: true
+    // };
+    // setInterval( ()=>{this.getWeatherData()},1000);
   }
 
   getWeatherData(){
@@ -42,9 +42,10 @@ export class WeatherWidgetMainComponent implements OnInit {
     // this.setWeatherData(data);
   }
 
-  setWeatherData(data){
+  // tslint:disable-next-line: typedef
+  setWeatherData(data:any){
     this.WeatherData = data;
-    let sunsetTime = new Date(this.WeatherData.sys.sunset * 1000);
+    const sunsetTime = new Date(this.WeatherData.sys.sunset * 1000);
     this.WeatherData.sunset_time = sunsetTime.toLocaleTimeString();
     let currentDate = new Date();
     this.WeatherData.isDay = (currentDate.getTime() < sunsetTime.getTime());

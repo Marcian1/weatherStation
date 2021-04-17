@@ -1,0 +1,16 @@
+{
+  
+  "rules": {
+    ".indexOn": ["IsNotificationEnabled"],
+
+    "orders":{
+      "$userId":{
+      ".indexOn": ["IsNotificationEnabled"],
+        ".write": "$userId === auth.userId",
+        ".read": "$userId === auth.userId"
+      }
+    },
+    ".read": "now < 1610920800000",  // 2021-1-18
+    ".write": "now < 1610920800000",  // 2021-1-18
+  }
+}
