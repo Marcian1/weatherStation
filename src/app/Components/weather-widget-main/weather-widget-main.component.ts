@@ -44,6 +44,9 @@ export class WeatherWidgetMainComponent implements OnInit {
 
   // tslint:disable-next-line: typedef
     isDay() {
+      if( !this.WeatherData ) {
+        return ;
+      }
       let hour = this.WeatherData.main.time[0] + this.WeatherData.main.time[1];
       return hour > 6 && hour < 20;
 
