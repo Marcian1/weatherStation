@@ -1,9 +1,9 @@
 <div id="divWeatherMain"> 
     <div style = "padding-top: 20%;" >
-        <div *ngIf="WeatherData.isDay" class="weatherWidgetRow">
+        <div *ngIf="isDay()" class="weatherWidgetRow">
             <i class="fas fa-3x fa-sun sun"></i>  
         </div>   
-        <div *ngIf="!WeatherData.isDay" class="weatherWidgetRow">
+        <div *ngIf="!isDay()" class="weatherWidgetRow">
             <i class="fas fa-3x fa-moon moon"></i>  
         </div>   
         <div class="weatherWidgetRow cloudDiv">

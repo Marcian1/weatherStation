@@ -27,13 +27,13 @@ export class WeatherWidgetMainComponent implements OnInit {
 
     this.weatherService.getWeather().subscribe(
       (data) => {
-        console.log(data.humidity);
         this.WeatherData.main.humidity=data.humidity.toFixed(2);
         this.WeatherData.temp_celcius=data.temperature;
         this.WeatherData.main.location = data.location;
         this.WeatherData.main.date = data.date;
         let time: string = data.time;
         this.WeatherData.main.time = data.time.slice(0,5);
+        this.isDay();
       },
       (err) => console.log(err)
     ); 
@@ -43,16 +43,11 @@ export class WeatherWidgetMainComponent implements OnInit {
   }
 
   // tslint:disable-next-line: typedef
-  setWeatherData(data:any){
-    this.WeatherData = data;
-    const sunsetTime = new Date(this.WeatherData.sys.sunset * 1000);
-    this.WeatherData.sunset_time = sunsetTime.toLocaleTimeString();
-    let currentDate = new Date();
-    this.WeatherData.isDay = (currentDate.getTime() < sunsetTime.getTime());
-    this.WeatherData.temp_celcius = (this.WeatherData.main.temp - 273.15).toFixed(0);
-    this.WeatherData.temp_min = (this.WeatherData.main.temp_min - 273.15).toFixed(0);
-    this.WeatherData.temp_max = (this.WeatherData.main.temp_max - 273.15).toFixed(0);
-    this.WeatherData.temp_feels_like = (this.WeatherData.main.feels_like - 273.15).toFixed(0);
-  }
+    isDay() {
+      let hour = this.WeatherData.main.time[0] + this.WeatherData.main.time[1];
+      return hour > 6 && hour < 20;
+
+
+    }
 
 }

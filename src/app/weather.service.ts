@@ -9,6 +9,6 @@ export class WeatherService {
 
   constructor(private http: HttpClient) {}
   getWeather(): Observable<any> {
-    return this.http.get<any>('https://3f05678306f6.ngrok.io/');
+    return this.http.get<any>('https://1a0e534df984.ngrok.io/');
   }
 }

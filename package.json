@@ -25,6 +25,7 @@
     "@angular/router": "~11.0.1",
     "@angular/service-worker": "~11.0.1",
     "firebase": "^8.2.1",
+    "font-awesome": "^4.7.0",
     "http-server": "^0.12.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
