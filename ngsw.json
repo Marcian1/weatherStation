@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1619119604012,
+  "timestamp": 1619119824414,
   "index": "/weatherStation/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/weatherStation/favicon.ico",
         "/weatherStation/index.html",
-        "/weatherStation/main.aa2ea81c6f941c1a0c90.js",
+        "/weatherStation/main.805eb3a41e51c2e16d86.js",
         "/weatherStation/manifest.webmanifest",
         "/weatherStation/polyfills.8c151b8375e767ff858f.js",
         "/weatherStation/runtime.0e49e2b53282f40c8925.js",
@@ -53,8 +53,8 @@
     "/weatherStation/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/weatherStation/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/weatherStation/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/weatherStation/index.html": "ed7612a94e9780455590f49bedc7325297d811e2",
-    "/weatherStation/main.aa2ea81c6f941c1a0c90.js": "2642cfe85795cf541295264c2929d1e745d97219",
+    "/weatherStation/index.html": "87e7d981ed14590eb47acd8e78571f137a0d5db8",
+    "/weatherStation/main.805eb3a41e51c2e16d86.js": "1480bd3322872eaf889a35208359d432f5aead0a",
     "/weatherStation/manifest.webmanifest": "7af850464d0deb43e81c0af037a21143e997d1ed",
     "/weatherStation/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/weatherStation/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
