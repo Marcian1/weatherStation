@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1618686462781,
+  "timestamp": 1619119604012,
   "index": "/weatherStation/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,11 @@
       "urls": [
         "/weatherStation/favicon.ico",
         "/weatherStation/index.html",
-        "/weatherStation/main.6f565baf1f44e51d5b53.js",
+        "/weatherStation/main.aa2ea81c6f941c1a0c90.js",
         "/weatherStation/manifest.webmanifest",
         "/weatherStation/polyfills.8c151b8375e767ff858f.js",
         "/weatherStation/runtime.0e49e2b53282f40c8925.js",
+        "/weatherStation/scripts.6fe60a0f37e8b22ba5f7.js",
         "/weatherStation/styles.6f4c600dfdf7f03f5401.css"
       ],
       "patterns": []
@@ -52,11 +53,12 @@
     "/weatherStation/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/weatherStation/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/weatherStation/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/weatherStation/index.html": "8fe0d3599a4736afc8f020da1da50aa2b1f121be",
-    "/weatherStation/main.6f565baf1f44e51d5b53.js": "a447ba0edc9d1a6fdbd9aafd37dfa7d19638be99",
+    "/weatherStation/index.html": "ed7612a94e9780455590f49bedc7325297d811e2",
+    "/weatherStation/main.aa2ea81c6f941c1a0c90.js": "2642cfe85795cf541295264c2929d1e745d97219",
     "/weatherStation/manifest.webmanifest": "7af850464d0deb43e81c0af037a21143e997d1ed",
     "/weatherStation/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/weatherStation/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/weatherStation/scripts.6fe60a0f37e8b22ba5f7.js": "080f6e1e93279c53d6f59856e6e249c573337641",
     "/weatherStation/styles.6f4c600dfdf7f03f5401.css": "b21b12a460b41dc04ffc5b15dc58d019a520be39"
   },
   "navigationUrls": [
